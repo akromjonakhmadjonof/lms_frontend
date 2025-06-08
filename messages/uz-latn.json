@@ -1,0 +1,97 @@
+{
+  "Dashboard": {
+    "title": " Dashboard"
+  },
+  "Account": {
+    "title": "Hisob"
+  },
+  "Courses": {
+    "title": "Kurslar"
+  },
+  "Calendar": {
+    "title": "Kalendar"
+  },
+  "Inbox": {
+    "title": "Yozishmalar"
+  },
+  "History": {
+    "title": "Tarix"
+  },
+  "Media": {
+    "title": "Mediam"
+  },
+  "Help": {
+    "title": "Yordam"
+  },
+  "Notices": {
+    "title": "Eslatmalar"
+  },
+  "Login": {
+    "welcome_back": "Xush kelibsiz",
+    "subtitle": "O‘z ta’limingizni boshqaring va kuningizni samarali o‘tkazing Talaba 365 bilan",
+    "email": "Elektron pochta",
+    "password": "Parol",
+    "forgot_password": "Parolni unutdingizmi?",
+    "sign_in": "Kirish",
+    "no_account": "Hisobingiz yo‘qmi?",
+    "sign_up": "Ro‘yxatdan o‘tish"
+  },
+  "auth": {
+    "email_required": "Elektron pochta majburiy",
+    "email_invalid": "To‘g‘ri elektron pochta manzilini kiriting",
+    "password_required": "Parol majburiy",
+    "password_min": "Parol kamida 10 ta belgidan iborat bo‘lishi kerak"
+  },
+  "permissions": {
+    "dashboard_description": "Bosh sahifaga ruxsat",
+    "roles_description": "Rollarga ruxsat",
+    "account_description": "Akkountga ruxsat",
+    "courses_description": "Kurslarga ruxsat",
+    "calendar_description": "Kalendarga ruxsat",
+    "inbox_description": "Xabarlarga ruxsat",
+    "history_description": "Faoliyat tarixiga ruxsat",
+    "media_description": "Mediaga ruxsat",
+    "notices_description": "E'lonlarga ruxsat",
+    "help_description": "Yordam bo‘limiga ruxsat"
+  },
+  "roles": {
+    "title": "Rollar",
+    "add_role": "Yangi rol qoʻshish",
+    "name": "Nomi",
+    "label": "Yorliq",
+    "description": "Tavsif",
+    "priority": "Ustuvorlik",
+    "create": "Yaratish",
+    "created_successfully": "Rol muvaffaqiyatli yaratildi!",
+    "creation_failed": "Rolni yaratishda xatolik.",
+    "name_required": "Ism majburiy.",
+    "name_invalid": "Notoʻgʻri ism.",
+    "name_min": "Ism kamida 2 ta belgidan iborat boʻlishi kerak.",
+    "name_max": "Ism eng koʻpi bilan 50 ta belgidan iborat boʻlishi kerak.",
+    "label_required": "Yorliq majburiy.",
+    "label_invalid": "Notoʻgʻri yorliq.",
+    "label_min": "Yorliq kamida 2 ta belgidan iborat boʻlishi kerak.",
+    "label_max": "Yorliq eng koʻpi bilan 50 ta belgidan iborat boʻlishi kerak.",
+    "priority_invalid": "Ustuvorlik raqam boʻlishi kerak.",
+    "priority_min": "Ustuvorlik 0 yoki undan katta boʻlishi kerak.",
+    "assistant": "Yordamchi",
+    "assistant_description": "Yordamchi foydalanuvchi huquqlari va vazifalari",
+    "student": "Talaba",
+    "student_description": "Talaba uchun mo‘ljallangan imkoniyatlar",
+    "tenant_admin": "Tashkilot admini",
+    "tenant_admin_description": "Tashkilotni boshqarish huquqlariga ega",
+    "teacher": "O‘qituvchi",
+    "teacher_description": "Darslar va kurslarni boshqarish imkoniyatlari",
+    "super_admin": "Super admin",
+    "super_admin_description": "Tizimni to‘liq boshqarish huquqlariga ega"
+  },
+  "table": {
+    "header": {
+      "name": "Nomi",
+      "label": "Yorliq",
+      "description": "Ta’rif",
+      "system": "Tizim",
+      "actions": "Amallar"
+    }
+  }
+}

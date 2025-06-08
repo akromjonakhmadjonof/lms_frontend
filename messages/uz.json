@@ -1,0 +1,97 @@
+{
+  "Dashboard": {
+    "title": "Дашборд"
+  },
+  "Account": {
+    "title": "Ҳисоб"
+  },
+  "Courses": {
+    "title": "Курслар"
+  },
+  "Calendar": {
+    "title": "Календар"
+  },
+  "Inbox": {
+    "title": "Ёзишмалар"
+  },
+  "History": {
+    "title": "Тарих"
+  },
+  "Media": {
+    "title": "Медиям"
+  },
+  "Help": {
+    "title": "Ёрдам"
+  },
+  "Notices": {
+    "title": "Эслатмалар"
+  },
+  "Login": {
+    "welcome_back": "Хуш келибсиз",
+    "subtitle": "Ўз уқувингизни бошқаринг ва натижаларингизни оширинг – Talaba 365 билан",
+    "email": "Электрон почта",
+    "password": "Парол",
+    "forgot_password": "Паролни унутдингизми?",
+    "sign_in": "Кириш",
+    "no_account": "Ҳисобингиз йўқми?",
+    "sign_up": "Рўйхатдан ўтиш"
+  },
+  "auth": {
+    "email_required": "Электрон почта талаб қилинади",
+    "email_invalid": "Юқоридаги тўғри электрон почтани киритинг",
+    "password_required": "Пароль киритиш мажбурий",
+    "password_min": "Пароль камида 10 та белгидан иборат бўлиши керак"
+  },
+  "permissions": {
+    "dashboard_description": "Бош саҳифага рухсат",
+    "roles_description": "Ролларга рухсат",
+    "account_description": "Аккаунтга рухсат",
+    "courses_description": "Курсларга рухсат",
+    "calendar_description": "Календарга рухсат",
+    "inbox_description": "Хабарларга рухсат",
+    "history_description": "Фаолият тарихига рухсат",
+    "media_description": "Медиага рухсат",
+    "notices_description": "Эълонларга рухсат",
+    "help_description": "Ёрдам бўлимига рухсат"
+  },
+  "table": {
+    "header": {
+      "name": "Номи",
+      "label": "Ёрлиқ",
+      "description": "Таъриф",
+      "system": "Тизим",
+      "actions": "Амаллар"
+    }
+  },
+  "roles": {
+    "title": "Роллар",
+    "add_role": "Янги роль қўшиш",
+    "name": "Номи",
+    "label": "Ёрлиқ",
+    "description": "Тасвир",
+    "priority": "Устуворлик",
+    "create": "Яратиш",
+    "created_successfully": "Роль муваффақиятли яратилди!",
+    "creation_failed": "Роль яратишда хатолик юз берди.",
+    "name_required": "Исм мажбурий.",
+    "name_invalid": "Нотўғри исм.",
+    "name_min": "Исм камида 2 та белгидан иборат бўлиши керак.",
+    "name_max": "Исм энг кўпи билан 50 та белгидан иборат бўлиши керак.",
+    "label_required": "Ёрлиқ мажбурий.",
+    "label_invalid": "Нотўғри ёрлиқ.",
+    "label_min": "Ёрлиқ камида 2 та белгидан иборат бўлиши керак.",
+    "label_max": "Ёрлиқ энг кўпи билан 50 та белгидан иборат бўлиши керак.",
+    "priority_invalid": "Устуворлик рақам бўлиши керак.",
+    "priority_min": "Устуворлик 0 ёки ундан катта бўлиши керак.",
+    "assistant": "Ёрдамчи",
+    "assistant_description": "Ёрдамчи фойдаланувчи ҳуқуқлари ва вазифалари",
+    "student": "Талаба",
+    "student_description": "Талаба учун мўлжалланган имкониятлар",
+    "tenant_admin": "Ташкилот админи",
+    "tenant_admin_description": "Ташкилотни бошқариш ҳуқуқларига эга",
+    "teacher": "Ўқитувчи",
+    "teacher_description": "Дарслар ва курсларни бошқариш имкониятлари",
+    "super_admin": "Супер админ",
+    "super_admin_description": "Тизимни тўлиқ бошқариш ҳуқуқларига эга"
+  }
+}

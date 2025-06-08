@@ -1,0 +1,97 @@
+{
+  "Dashboard": {
+    "title": "Dashboard"
+  },
+  "Account": {
+    "title": "Account"
+  },
+  "Courses": {
+    "title": "Courses"
+  },
+  "Calendar": {
+    "title": "Calendar"
+  },
+  "Inbox": {
+    "title": "Inbox"
+  },
+  "History": {
+    "title": "History"
+  },
+  "Media": {
+    "title": "My Media"
+  },
+  "Help": {
+    "title": "Help"
+  },
+  "Notices": {
+    "title": "Notices"
+  },
+  "Login": {
+    "welcome_back": "Welcome Back",
+    "subtitle": "From daily lectures to future leadership Talaba 365 keeps you aligned and prepared",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "sign_in": "Sign in",
+    "no_account": "Don’t you have an account?",
+    "sign_up": "Sign up"
+  },
+  "auth": {
+    "email_required": "Email is required",
+    "email_invalid": "Enter a valid email address",
+    "password_required": "Password is required",
+    "password_min": "Password must be at least 10 characters"
+  },
+  "permissions": {
+    "dashboard_description": "Access to dashboard",
+    "roles_description": "Access to roles",
+    "account_description": "Access to account",
+    "courses_description": "Access to courses",
+    "calendar_description": "Access to calendar",
+    "inbox_description": "Access to inbox",
+    "history_description": "Access to activity history",
+    "media_description": "Access to media",
+    "notices_description": "Access to notices",
+    "help_description": "Access to help section"
+  },
+  "roles": {
+    "add_role": "Add New Role",
+    "name": "Name",
+    "label": "Label",
+    "description": "Description",
+    "priority": "Priority",
+    "create": "Create",
+    "created_successfully": "Role created successfully!",
+    "creation_failed": "Failed to create role.",
+    "name_required": "Name is required.",
+    "name_invalid": "Invalid name.",
+    "name_min": "Name must be at least 2 characters.",
+    "name_max": "Name must be at most 50 characters.",
+    "label_required": "Label is required.",
+    "label_invalid": "Invalid label.",
+    "label_min": "Label must be at least 2 characters.",
+    "label_max": "Label must be at most 50 characters.",
+    "priority_invalid": "Priority must be a number.",
+    "priority_min": "Priority must be 0 or greater.",
+    "assistant": "Assistant",
+    "assistant_description": "Assistant user privileges and responsibilities",
+    "student": "Student",
+    "student_description": "Functions available for students",
+    "tenant_admin": "Tenant Admin",
+    "tenant_admin_description": "Privileges to manage the organization",
+    "teacher": "Teacher",
+    "teacher_description": "Manage courses and learning sessions",
+    "super_admin": "Super Admin",
+    "super_admin_description": "Full system-wide administrative permissions",
+    "title": "Roles"
+  },
+  "table": {
+    "header": {
+      "name": "Name",
+      "label": "Label",
+      "description": "Description",
+      "system": "System",
+      "actions": "Actions"
+    }
+  }
+}

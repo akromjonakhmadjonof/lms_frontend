@@ -1,0 +1,97 @@
+{
+  "Dashboard": {
+    "title": "Дашборд"
+  },
+  "Account": {
+    "title": "Аккаунт"
+  },
+  "Courses": {
+    "title": "Курсы"
+  },
+  "Calendar": {
+    "title": "Календарь"
+  },
+  "Inbox": {
+    "title": "Входящие"
+  },
+  "History": {
+    "title": "История"
+  },
+  "Media": {
+    "title": "Мои медиа"
+  },
+  "Help": {
+    "title": "Помощь"
+  },
+  "Notices": {
+    "title": "Уведомления"
+  },
+  "Login": {
+    "welcome_back": "С возвращением",
+    "subtitle": "Talaba 365 — твоя платформа для роста, знаний и управления",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "forgot_password": "Забыли пароль?",
+    "sign_in": "Войти",
+    "no_account": "Нет аккаунта?",
+    "sign_up": "Зарегистрироваться"
+  },
+  "auth": {
+    "email_required": "Электронная почта обязательна",
+    "email_invalid": "Введите действительный адрес электронной почты",
+    "password_required": "Пароль обязателен",
+    "password_min": "Пароль должен содержать не менее 10 символов"
+  },
+  "permissions": {
+    "dashboard_description": "Доступ к панели управления",
+    "roles_description": "Доступ к ролям",
+    "account_description": "Доступ к аккаунту",
+    "courses_description": "Доступ к курсам",
+    "calendar_description": "Доступ к календарю",
+    "inbox_description": "Доступ к входящим",
+    "history_description": "Доступ к истории действий",
+    "media_description": "Доступ к медиа",
+    "notices_description": "Доступ к объявлениям",
+    "help_description": "Доступ к справке"
+  },
+  "roles": {
+    "title": "Роли",
+    "add_role": "Добавить новую роль",
+    "name": "Имя",
+    "label": "Метка",
+    "description": "Описание",
+    "priority": "Приоритет",
+    "create": "Создать",
+    "created_successfully": "Роль успешно создана!",
+    "creation_failed": "Не удалось создать роль.",
+    "name_required": "Имя обязательно.",
+    "name_invalid": "Недопустимое имя.",
+    "name_min": "Имя должно содержать минимум 2 символа.",
+    "name_max": "Имя должно содержать не более 50 символов.",
+    "label_required": "Метка обязательна.",
+    "label_invalid": "Недопустимая метка.",
+    "label_min": "Метка должна содержать минимум 2 символа.",
+    "label_max": "Метка должна содержать не более 50 символов.",
+    "priority_invalid": "Приоритет должен быть числом.",
+    "priority_min": "Приоритет должен быть 0 или больше.",
+    "assistant": "Помощник",
+    "assistant_description": "Права и обязанности помощника",
+    "student": "Студент",
+    "student_description": "Функции, доступные студенту",
+    "tenant_admin": "Администратор арендатора",
+    "tenant_admin_description": "Права управления организацией",
+    "teacher": "Преподаватель",
+    "teacher_description": "Управление курсами и занятиями",
+    "super_admin": "Супер админ",
+    "super_admin_description": "Полные права на управление системой"
+  },
+  "table": {
+    "header": {
+      "name": "Название",
+      "label": "Ярлык",
+      "description": "Описание",
+      "system": "Система",
+      "actions": "Действия"
+    }
+  }
+}
