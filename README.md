@@ -1,36 +1,144 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠Talaba365  LMS Frontend
 
-## Getting Started
+A professional, scalable frontend for a **Learning Management System (LMS)** built with **Next.js 14 App Router**, *
+*TypeScript**, **Tailwind CSS**, and **React Hook Form**. This UI interfaces with a powerful multi-tenant backend and
+provides an accessible, internationalized user experience for students, teachers, and administrators.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- ✨ **Modern App Router** structure (`app/`, `layout.tsx`, nested routes)
+- 🧩 **Modular Components** architecture using Tailwind UI and shadcn
+- 🌍 **Full i18n Support** with dynamic `[locale]` routing and translation files
+- 🔐 **Authentication** ready (login, account, user roles)
+- 📚 **Multi-role Interfaces** for students, teachers, and admins
+- 🧪 **Strict type safety** with Zod and TypeScript
+- 🗂 **Smart Directory Structure** for separation of concerns
+- 🌐 **SSR and CSR** optimized for Next.js 14
+- 🧵 **Custom hook** architecture with clean data flow
+- 💬 Built-in messages, inbox, and help sections
+- 📅 Calendar and history tracking support
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── app/
+│   ├── [locale]/         # Locale-aware routing
+│   │   ├── login/
+│   │   ├── account/
+│   │   ├── courses/
+│   │   ├── calendar/
+│   │   └── ...
+├── components/           # UI components
+├── constants/            # Static constants (roles, routes)
+├── hooks/                # React hooks (useLogin, useAuth)
+├── i18n/                 # Translations & internationalization
+├── lib/                  # Shared utility functions
+├── providers/            # React context providers
+├── schemas/              # Zod validation schemas
+├── stores/               # Zustand or other global stores
+├── styles/               # TailwindCSS and custom styles
+├── types/                # Global TypeScript types
+├── utils/                # General-purpose utils
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 14 App Router**
+- **React 18** with TypeScript
+- **Tailwind CSS** + shadcn/ui
+- **Zod** for schema validation
+- **React Hook Form** for advanced forms
+- **Next-Intl** for translations
+- **PostCSS** for advanced styling
+- **ESLint + Prettier** for linting and formatting
+- **Vercel / Docker Ready** for deployment
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 1. Clone the Repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+git https://github.com/akromjonakhmadjonof/lms_frontend.git
+cd lms_frontend
+```
 
-## Deploy on Vercel
+### 2. Install Dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+yarn install
+# or
+npm install
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 3. Setup Environment
+
+Create a `.env.local` file based on `.env.example`:
+
+```env
+NEXT_PUBLIC_API_URL=https://api.example.com
+NEXT_PUBLIC_DEFAULT_LOCALE=en
+```
+
+### 4. Run the Development Server
+
+```bash
+yarn dev
+# or
+npm run dev
+```
+
+Visit `http://localhost:4000`.
+
+---
+
+## 🌍 i18n
+
+- Uses `next-intl` for internationalization
+- Locale structure: `/[locale]/login`, `/[locale]/courses`
+- Translation files stored in `public/messages/` and loaded dynamically
+
+---
+
+## 🔐 Authentication
+
+- JWT-based flow with backend session handling
+- Login route: `/[locale]/login`
+- Role-based rendering for `user`, `teacher`, `admin`
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/my-f eature`)
+3. Commit your changes (`git commit -am 'Add feature'`)
+4. Push to the branch (`git push origin feature/my-feature`)
+5. Open a Pull Request
+
+---
+
+## 💬 Contact
+
+Feel free to open an issue or email the maintainer at `admin@talaba365.uz`.
+
+---
+
+## 🧠 Inspiration
+
+Built to scale educational technology in Central Asia and globally, **Talaba365 LMS** supports hybrid tenancy,
+multilingual UIs, and adaptive learning features.
